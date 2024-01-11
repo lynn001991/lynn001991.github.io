@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body,h1,h3,h6,p,ul{
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.wrap {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#FAFAFA;
+}
+
+
+main, section, header, footer{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #E3E3E3;
+    padding: 10px 30px;
+    
+}
+
+h1.logo {
+    width: 50px; 
+    height: 50px;
+    margin-right: auto;
+    background-image: url(image/個人logo-03.png);
+    background-position: center; 
+}
+
+h3.jhuo {
+    color: #3e3e3e8f;
+    font-size: 25px;
+    padding-right: 700px;
+}
+
+nav ul {
+    margin: 0;/*清除原本 UL 的 margin 空間*/
+    padding: 0;/*清除原本 UL 的 padding 空間*/
+    display: flex;/*讓 UL 裡的內容橫排*/
+    list-style: none; /*清除原本 UL 的小圓點*/
+    gap: 20px;/*製作選單之間的間隔距離*/
+
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #CC4C3E;
+    border-radius: 24px;
+    transition: 0.2s;
+    
+}
+
+nav a:hover {
+    color: white;
+    background-color:cadetblue;
+    
+}
+
+main {
+    height: 360px;
+    background-image: url(image/grays.jpg);
+    border-radius: 16px;
+    background-size: cover;
+    box-shadow: 0px 3px 15px #3e3e3e6d;
+ }
+
+main p {
+    font-size: 23px;
+    font-weight: 200;
+    color: #fcfcfc;
+    padding-top: 250px;
+    padding-left: 820px;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px #000000;
+    
+}
+
+.card {
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+}
+
+.card_image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.A .card_image {
+    background-image: url(image/S__17104926_0.jpg.png);
+}
+.B .card_image {
+    background-image: url(image/S__17088580_0.jpg);
+}
+
+.C .card_intro h6{
+    font-size: 25px;
+    font-weight: 200;
+    color: #3e3e3e;
+    padding-top: 30px;
+    padding-left: 10px;
+  
+}
+
+.C .card_intro p{
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color: #3e3e3e;
+    
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    box-shadow: 0px 3px 15px #3e3e3e6d;
+    
+}
+
+footer {
+    height: 50px;
+    
+}
+
+footer {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #b6b6b6;
+}
+
+
